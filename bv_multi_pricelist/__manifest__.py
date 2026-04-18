@@ -17,6 +17,7 @@
         'views/res_config_settings_views.xml',
     ],
     'images': [
+        'static/description/banner.png',
         'static/description/screenshots/settings.png',
         'static/description/screenshots/apply_button.png',
         'static/description/screenshots/wizard.png',
