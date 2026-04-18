@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_bv_pricelist_wizard_form" model="ir.ui.view">
+        <field name="name">bv.multi.pricelist.wizard.form</field>
+        <field name="model">bv.multi.pricelist.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Select Pricelist">
+                <sheet>
+                    <field name="bv_order_line_id" invisible="1"/>
+                    <field name="bv_pricelist_line_ids">
+                        <list create="0" edit="0" delete="0">
+                            <field name="bv_pricelist_id"/>
+                            <button name="action_open_pricelist" type="object" icon="fa-external-link" title="Open Pricelist" class="btn-link"/>
+                            <field name="bv_unit_price"/>
+                            <field name="bv_unit_cost"/>
+                            <field name="bv_margin"/>
+                            <field name="bv_margin_percentage"/>
+                            <button name="action_apply_pricelist" type="object" string="Apply" class="btn-primary"/>
+                        </list>
+                    </field>
+                </sheet>
+                <footer>
+                    <button name="action_remove_pricelist" type="object" string="Remove Pricelist" class="btn-danger" icon="fa-trash"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

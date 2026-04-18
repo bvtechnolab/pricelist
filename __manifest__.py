@@ -1,0 +1,27 @@
+{
+    'name': 'Sales Multi Pricelist per Order Line',
+    'version': '19.0.1.0.0',
+    'category': 'Sales/Sales',
+    'summary': 'Apply different pricelists per sale order line with an advanced comparison wizard',
+    'description': 'Advanced wizard to apply different pricelists per sale order line.',
+    'author': 'BV TechnoLab',
+    'website': 'mailto:bvtechnolab@gmail.com',
+    'license': 'LGPL-3',
+    'price': 9.99,
+    'currency': 'USD',
+    'depends': ['sale', 'product', 'sales_team'],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/wizard_view.xml',
+        'views/sale_order_view.xml',
+        'views/res_config_settings_views.xml',
+    ],
+    'images': [
+        'static/description/screenshots/settings.png',
+        'static/description/screenshots/apply_button.png',
+        'static/description/screenshots/wizard.png',
+    ],
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+}

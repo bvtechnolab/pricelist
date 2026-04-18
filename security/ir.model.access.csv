@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_bv_multi_pricelist_wizard,bv.multi.pricelist.wizard,model_bv_multi_pricelist_wizard,sales_team.group_sale_salesman,1,1,1,1
+access_bv_multi_pricelist_wizard_line,bv.multi.pricelist.wizard.line,model_bv_multi_pricelist_wizard_line,sales_team.group_sale_salesman,1,1,1,1
