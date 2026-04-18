@@ -1,5 +1,5 @@
 {
-    'name': 'Sales Multi Pricelist per Order Line',
+    'name': 'Sales Multi Pricelist per Order Line.',
     'version': '19.0.1.0.0',
     'category': 'Sales/Sales',
     'summary': 'Apply different pricelists per sale order line with an advanced comparison wizard',
